@@ -200,6 +200,6 @@ def show_menu():
 
 
 # setting random seed using best practice according to numpy docs
-rs = np.random.RandomState(np.random.MT19937(np.random.SeedSequence(300660)))
+rs = np.random.RandomState(np.random.MT19937(np.random.SeedSequence(123456)))
 
 show_menu()
